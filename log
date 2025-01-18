@@ -1,0 +1,77 @@
+10-10-2024 [11:01:30] Logfile opened
+10-10-2024 [11:01:30] Executable : vampire-parallel
+10-10-2024 [11:01:30] Host name  : LeBerts-MacBook-Air.local:
+10-10-2024 [11:01:30] Directory  : /Users/lebertsambillgates/Documents/PhD/vampire_lsf_defect/vampire auto
+10-10-2024 [11:01:30] Process ID : 44261
+10-10-2024 [11:01:30] Version    : 6.0.0
+10-10-2024 [11:01:30] Githash    : ba482b834ed93ba1306bdef66731e7609dc86ba2
+10-10-2024 [11:01:30] Opening main input file "input".
+10-10-2024 [11:01:30] Parsing system parameters from main input file.
+10-10-2024 [11:01:30] Opening material file "FeNi.mat".
+10-10-2024 [11:01:30] Parsing material file for parameters.
+10-10-2024 [11:01:30] Warning: Keyword 'alloy-host' is deprecated and may be removed in a future release. Please use 'host-alloy' instead.
+10-10-2024 [11:01:30] Setting periodic boundary conditions in x,y,z directions
+10-10-2024 [11:01:30] Generating neighbour interactions for a lattice of 5 x 5 x 5 unit cells for neighbour calculation
+10-10-2024 [11:01:30] Using long-ranged exchange with computed interaction shells
+10-10-2024 [11:01:30] Number of calculated interaction shells: 3
+10-10-2024 [11:01:30]    Shell 	Number 	Range 	 Cumulative
+10-10-2024 [11:01:30]      1   	8	0.866025 	8
+10-10-2024 [11:01:30]      2   	6	1 	14
+10-10-2024 [11:01:30]      3   	12	1.41421 	26
+10-10-2024 [11:01:30] System decomposed into 1 x 1 x 1 processors for parallel execution
+10-10-2024 [11:01:30] Calculating alloy properties of system
+10-10-2024 [11:01:30] Determining atomic composition:
+10-10-2024 [11:01:30] Material 1 Fe makes up 95.0017 % of all atoms ( 11081 atoms )
+10-10-2024 [11:01:30] Material 2 Ni makes up 4.99829 % of all atoms ( 583 atoms )
+10-10-2024 [11:01:30] Copying halo atoms to other processors...
+10-10-2024 [11:01:30]    Determining CPU ranges in x,y,z
+10-10-2024 [11:01:30]      Completed. Time taken: 3.2917e-05 s
+10-10-2024 [11:01:30]    Determining atoms needed by remote CPUs
+10-10-2024 [11:01:30]      Completed. Time taken: 0.0406823 s
+10-10-2024 [11:01:30]    Sharing number of atoms to be sent/received from each CPU
+10-10-2024 [11:01:30]      Completed. Time taken: 7.083e-06 s
+10-10-2024 [11:01:30]    Sending boundary atom data to all relevant CPUs
+10-10-2024 [11:01:30]      Completed. Time taken: 0.00061075 s
+10-10-2024 [11:01:30] 	done! Total time taken: 0.0424275
+10-10-2024 [11:01:30] Memory required for neighbourlist calculation (each cpu):0 MB
+10-10-2024 [11:01:30] Memory required for neighbourlist calculation (all cpus):0 MB
+10-10-2024 [11:01:30] Allocating memory for supercell array in neighbourlist calculation
+10-10-2024 [11:01:30] 	Allocating memory done
+10-10-2024 [11:01:30] Populating supercell array for neighbourlist calculation...
+10-10-2024 [11:01:30] 	Populating supercell array completed
+10-10-2024 [11:01:30] Memory required for neighbour list (each cpu):0 MB
+10-10-2024 [11:01:30] Memory required for neighbour list (all cpus):0 MB
+10-10-2024 [11:01:30] Generating neighbour list...
+10-10-2024 [11:01:30] 	Neighbour list calculation complete
+10-10-2024 [11:01:30] Deallocating supercell array for neighbour list calculation
+10-10-2024 [11:01:30] 	Supercell array deallocated
+10-10-2024 [11:01:30] Number of core  atoms: 8192
+10-10-2024 [11:01:30] Number of local atoms: 11664
+10-10-2024 [11:01:30] Number of total atoms: 15986
+10-10-2024 [11:01:30] Initialising MPI communications...
+10-10-2024 [11:01:30] 	done! Total time taken: 0.000199125
+10-10-2024 [11:01:30] Copying system data to optimised data structures.
+10-10-2024 [11:01:30] Number of atoms generated on rank 0: 11664
+10-10-2024 [11:01:30] Memory required for copying to performance array on rank 0: 2.42987 MB RAM
+10-10-2024 [11:01:30] Identifying surface atoms using global threshold value of 8
+10-10-2024 [11:01:30] 0 surface atoms found.
+10-10-2024 [11:01:30] Memory required for creation of 1D neighbour list on rank 0: 0.255776 MB RAM
+10-10-2024 [11:01:30] Initialising data structures for exchange calculation.
+10-10-2024 [11:01:30] Unrolled exchange template requires 2.42611MB RAM
+10-10-2024 [11:01:30] Total number of atoms (all CPUs): 11664
+10-10-2024 [11:01:30] Initializing vampire modules
+10-10-2024 [11:01:30] Macrocell size = 10,10,10 Angstroms
+10-10-2024 [11:01:30] Macrocells in x,y,z: 6	6	6
+10-10-2024 [11:01:30] Total number of macrocells: 216
+10-10-2024 [11:01:30] Memory required for macrocell arrays: 0.01728 MB
+10-10-2024 [11:01:30] Number of local macrocells on rank 0: 216
+10-10-2024 [11:01:30] Initialising data structures for anisotropy calculation for 100 materials
+10-10-2024 [11:01:30] Initialising statistics module
+10-10-2024 [11:01:30] Time for initialisation: 0.13111
+10-10-2024 [11:01:30] Starting Simulation with Program Curie-Temperature...
+10-10-2024 [11:05:38] Simulation run time [s]: 248.064
+10-10-2024 [11:05:38] Monte Carlo statistics:
+10-10-2024 [11:05:38] 	Total moves: 1.1664e+08
+10-10-2024 [11:05:38] 	39.9603% Accepted
+10-10-2024 [11:05:38] 	60.0397% Rejected
+10-10-2024 [11:05:38] Simulation ended gracefully.

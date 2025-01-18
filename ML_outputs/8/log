@@ -1,0 +1,58 @@
+09-09-2024 [10:55:01] Logfile opened
+09-09-2024 [10:55:01] Executable : vampire-serial
+09-09-2024 [10:55:01] Host name  : LeBerts-MacBook-Air.local:
+09-09-2024 [10:55:01] Directory  : /Users/lebertsambillgates/Documents/PhD/vampire_lsf_defect/vampire auto
+09-09-2024 [10:55:01] Process ID : 50650
+09-09-2024 [10:55:01] Version    : 6.0.0
+09-09-2024 [10:55:01] Githash    : ba482b834ed93ba1306bdef66731e7609dc86ba2
+09-09-2024 [10:55:01] Opening main input file "input".
+09-09-2024 [10:55:01] Parsing system parameters from main input file.
+09-09-2024 [10:55:01] Opening material file "FeNi.mat".
+09-09-2024 [10:55:01] Parsing material file for parameters.
+09-09-2024 [10:55:01] Warning: Keyword 'alloy-host' is deprecated and may be removed in a future release. Please use 'host-alloy' instead.
+09-09-2024 [10:55:01] Setting periodic boundary conditions in x,y,z directions
+09-09-2024 [10:55:01] Generating neighbour interactions for a lattice of 5 x 5 x 5 unit cells for neighbour calculation
+09-09-2024 [10:55:01] Using long-ranged exchange with computed interaction shells
+09-09-2024 [10:55:01] Number of calculated interaction shells: 3
+09-09-2024 [10:55:01]    Shell 	Number 	Range 	 Cumulative
+09-09-2024 [10:55:01]      1   	8	0.866025 	8
+09-09-2024 [10:55:01]      2   	6	1 	14
+09-09-2024 [10:55:01]      3   	12	1.41421 	26
+09-09-2024 [10:55:01] Calculating alloy properties of system
+09-09-2024 [10:55:01] Determining atomic composition:
+09-09-2024 [10:55:01] Material 1 Fe makes up 95.0017 % of all atoms ( 11081 atoms )
+09-09-2024 [10:55:01] Material 2 Ni makes up 4.99829 % of all atoms ( 583 atoms )
+09-09-2024 [10:55:01] Memory required for neighbourlist calculation:0.093312 MB
+09-09-2024 [10:55:01] Allocating memory for supercell array in neighbourlist calculation
+09-09-2024 [10:55:01] 	Allocating memory done
+09-09-2024 [10:55:01] Populating supercell array for neighbourlist calculation...
+09-09-2024 [10:55:01] 	Populating supercell array completed
+09-09-2024 [10:55:01] Memory required for neighbour list:2.42611 MB
+09-09-2024 [10:55:01] Generating neighbour list...
+09-09-2024 [10:55:01] 	Neighbour list calculation complete
+09-09-2024 [10:55:01] Deallocating supercell array for neighbour list calculation
+09-09-2024 [10:55:01] 	Supercell array deallocated
+09-09-2024 [10:55:01] Copying system data to optimised data structures.
+09-09-2024 [10:55:01] Number of atoms generated on rank 0: 11664
+09-09-2024 [10:55:01] Memory required for copying to performance array on rank 0: 1.77293 MB RAM
+09-09-2024 [10:55:01] Identifying surface atoms using global threshold value of 8
+09-09-2024 [10:55:01] 0 surface atoms found.
+09-09-2024 [10:55:01] Memory required for creation of 1D neighbour list on rank 0: 0.186624 MB RAM
+09-09-2024 [10:55:01] Initialising data structures for exchange calculation.
+09-09-2024 [10:55:01] Unrolled exchange template requires 2.42611MB RAM
+09-09-2024 [10:55:01] Number of atoms generated: 11664
+09-09-2024 [10:55:01] Initializing vampire modules
+09-09-2024 [10:55:01] Macrocell size = 10,10,10 Angstroms
+09-09-2024 [10:55:01] Macrocells in x,y,z: 6	6	6
+09-09-2024 [10:55:01] Total number of macrocells: 216
+09-09-2024 [10:55:01] Memory required for macrocell arrays: 0.01728 MB
+09-09-2024 [10:55:01] Number of local macrocells on rank 0: 216
+09-09-2024 [10:55:01] Initialising data structures for anisotropy calculation for 100 materials
+09-09-2024 [10:55:01] Initialising statistics module
+09-09-2024 [10:55:01] Starting Simulation with Program Curie-Temperature...
+09-09-2024 [10:55:18] Simulation run time [s]: 16.194
+09-09-2024 [10:55:18] Monte Carlo statistics:
+09-09-2024 [10:55:18] 	Total moves: 1.1664e+08
+09-09-2024 [10:55:18] 	39.9599% Accepted
+09-09-2024 [10:55:18] 	60.0401% Rejected
+09-09-2024 [10:55:18] Simulation ended gracefully.
